@@ -6,7 +6,7 @@
 	<groupId>com.tpn.starter</groupId>
 	<artifactId>mv-validating-form-input</artifactId>
 	<version>0.0.1</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>mv-validating-form-input</name>
 	<description>Demo project for Spring Boot</description>
@@ -37,6 +37,7 @@
             <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-el</artifactId>
